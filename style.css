@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: url(./img/bg-rick-morty.png);
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+body form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 18%;
+  top: 15%;
+}
+
+body form input {
+  padding: 5px 1px;
+  width: 80px; 
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+body form button {
+  padding: 5px 1px;
+  width: 40px;
+  border-radius: 5px;
+  border: 1px solid white;
+  position: relative;
+  right: 8%;
+  background-color: white;
+}
+
+input[type="number"] {
+  text-align: center; /* Alinhar texto ao centro */
+  padding-right: 45px; 
+  align-items: center;
+}
+
+body p {
+  color: white;
+  margin: 7px;
+}
+
+body pre {
+  color: white;
+  width: 100%;
+}
