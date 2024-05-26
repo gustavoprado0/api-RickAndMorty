@@ -4,12 +4,14 @@
 }
 
 body {
+  height: 100%;
   font-family: Arial, sans-serif;
   margin: 20px;
   padding: 20px;
   background-image: url('./img/bg-rick-morty.png');
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  
 }
 
 form {
@@ -22,6 +24,7 @@ form {
 }
 
 #questionsList li {
+  position: relative;
   margin-bottom: 20px;
 }
 
@@ -30,7 +33,8 @@ form {
 }
 
 #questionsList label {
-  margin-right: 10px;
+  position: relative;
+  right: 28px;
 }
 
 #result {
@@ -52,12 +56,17 @@ form {
 }
 
 .question-text {
-  color: greenyellow; /* Defina a cor que você deseja para as perguntas */
-  font-weight: bold; /* Se você quiser que o texto das perguntas seja em negrito */
-  margin-bottom: 10px; /* Adicione algum espaçamento inferior para separar das opções */
+  color: greenyellow;
+  font-weight: bold;
 }
 
 input[type="radio"],
 button[type="submit"] {
   cursor: pointer;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: greenyellow;
+  border: none;
+  color: black;
+  width: 10vh;
 }
